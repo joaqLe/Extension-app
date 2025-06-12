@@ -1,0 +1,13 @@
+<%- include('partials/header', { title: 'login' }) %>
+<h2>Iniciar sesión</h2>
+<form method="post" action="/login">
+  <label>Correo institucional
+    <input type="email" name="email" required>
+  </label>
+  <label>Contraseña
+    <input type="password" name="password" required>
+  </label>
+  <button type="submit">Ingresar</button>
+</form>
+<p><a href="#">¿Olvidaste tu contraseña?</a></p>
+<%- include('partials/footer') %>

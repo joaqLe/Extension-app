@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Extension App</h1>
+    <nav>
+      <ul>
+        <li><a href="/dashboard" <%= title==='dashboard'?'class="active"':'' %>>Dashboard</a></li>
+        <li><a href="/solicitar-evento" <%= title==='solicitar-evento'?'class="active"':'' %>>Nueva Solicitud</a></li>
+        <li><a href="/mis-solicitudes" <%= title==='mis-solicitudes'?'class="active"':'' %>>Mis Solicitudes</a></li>
+        <li><a href="/gestion-solicitudes" <%= title==='gestion-solicitudes'?'class="active"':'' %>>Gestión</a></li>
+        <li><a href="/agenda-eventos" <%= title==='agenda-eventos'?'class="active"':'' %>>Agenda</a></li>
+        <li><a href="/mis-tareas" <%= title==='mis-tareas'?'class="active"':'' %>>Tareas</a></li>
+        <li><a href="/inventario" <%= title==='inventario'?'class="active"':'' %>>Inventario</a></li>
+        <li><a href="/encuestas" <%= title==='encuestas'?'class="active"':'' %>>Encuestas</a></li>
+        <li><a href="/reportes" <%= title==='reportes'?'class="active"':'' %>>Reportes</a></li>
+        <li><a href="/configuracion" <%= title==='configuracion'?'class="active"':'' %>>Configuración</a></li>
+        <li><a href="/notificaciones" <%= title==='notificaciones'?'class="active"':'' %>>Notificaciones</a></li>
+        <li><a href="/admin" <%= title==='admin'?'class="active"':'' %>>Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
