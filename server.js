@@ -21,6 +21,9 @@ app.get('/encuestas', (req, res) => res.render('encuestas'));
 app.get('/reportes', (req, res) => res.render('reportes'));
 app.get('/configuracion', (req, res) => res.render('configuracion'));
 app.get('/notificaciones', (req, res) => res.render('notificaciones'));
+
 app.get('/admin', (req, res) => res.render('admin'));
+
+
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

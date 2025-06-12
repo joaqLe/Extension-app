@@ -9,6 +9,7 @@
   <header>
     <h1>Extension App</h1>
     <nav>
+
       <ul>
         <li><a href="/dashboard" <%= title==='dashboard'?'class="active"':'' %>>Dashboard</a></li>
         <li><a href="/solicitar-evento" <%= title==='solicitar-evento'?'class="active"':'' %>>Nueva Solicitud</a></li>
@@ -23,6 +24,10 @@
         <li><a href="/notificaciones" <%= title==='notificaciones'?'class="active"':'' %>>Notificaciones</a></li>
         <li><a href="/admin" <%= title==='admin'?'class="active"':'' %>>Admin</a></li>
       </ul>
+
+      <a href="/dashboard">Dashboard</a>
+      <a href="/notificaciones">Notificaciones</a>
+
     </nav>
   </header>
   <main>
